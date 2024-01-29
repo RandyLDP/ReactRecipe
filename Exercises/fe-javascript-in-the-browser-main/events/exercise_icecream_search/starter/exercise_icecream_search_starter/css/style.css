@@ -1,0 +1,21 @@
+/* Add more styling here */
+
+form input.has-focus {
+    background-color: greenyellow;
+}
+
+form div.search-field {
+    display: flex;
+}
+
+form div.search-field.match-found::before {
+    content: "✅";
+}
+
+form div.search-field.no-match-found::before {
+    content: "❌";
+}
+
+.hidden {
+    display: none !important;
+}
